@@ -2,7 +2,6 @@ numpy
 keras
 keras.preprocessing
 keras.models
-keras.preprocessing.sequence
 Click==7.0
 Flask==1.1.1
 gunicorn==19.9.0
