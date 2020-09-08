@@ -15,7 +15,7 @@ from keras.preprocessing.sequence import pad_sequences
 
 
 model = load_model("storage/model_19.h5")
-model._make_predict_function()
+
 
 
 # In[3]:
@@ -28,7 +28,7 @@ model_temp = ResNet50(weights="imagenet",input_shape=(224,224,3))
 
 
 model_resnet = Model(model_temp.input,model_temp.layers[-2].output)
-model_resnet._make_predict_function()
+
 
 
 # In[5]:
